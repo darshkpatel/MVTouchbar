@@ -1,3 +1,1 @@
-# MVTouchbar
-### Music Visualizer for TouchBar
-A OpenSource Audio Visualisation tool for Mac's TouchBar
+![MVTouchbar](https://socialify.git.ci/TouchbarApps/MVTouchbar/image?description=1&descriptionEditable=An%20OpenSource%20Audio%20Visualisation%20tool%20for%20the%20Mac%27s%20TouchBar&font=Source%20Code%20Pro&forks=1&issues=1&logo=https%3A%2F%2Fgithub.com%2FTouchbarApps%2FMVTouchbar%2Fblob%2Fmain%2Fassets%2Flogo.png%3Fraw%3Dtrue&owner=1&pattern=Floating%20Cogs&pulls=1&stargazers=1&theme=Dark)
