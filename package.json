@@ -1,0 +1,14 @@
+{
+  "name": "mvtouchbar",
+  "version": "0.0.1",
+  "description": "An OpenSource Audio Visualization tool for the Mac's TouchBar",
+  "main": "index.js",
+  "repository": "https://github.com/TouchbarApps/MVTouchbar/",
+  "license": "GPL-3.0+",
+  "dependencies": {
+    "electron": "^11.0.2"
+  },
+  "scripts": {
+    "start": "electron index.js"
+  }
+}
