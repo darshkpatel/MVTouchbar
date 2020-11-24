@@ -3,7 +3,6 @@
     <dependencies>
         <deployment identifier="macosx"/>
         <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="17506"/>
-        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--Application-->
@@ -56,70 +55,5 @@
             </objects>
             <point key="canvasLocation" x="75" y="0.0"/>
         </scene>
-        <!--Status Bar View Controller-->
-        <scene sceneID="c0y-cj-3Tm">
-            <objects>
-                <viewController storyboardIdentifier="StatusBarViewController" id="Imx-Xf-AeJ" customClass="StatusBarViewController" customModule="MVTouchBar" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" autoresizesSubviews="NO" id="omh-f7-HKF">
-                        <rect key="frame" x="0.0" y="0.0" width="360" height="360"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                        <subviews>
-                            <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dZQ-WD-aze">
-                                <rect key="frame" x="143" y="13" width="75" height="32"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                <buttonCell key="cell" type="push" title="Quit" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="zNa-BU-cvT">
-                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                                    <font key="font" metaFont="system"/>
-                                </buttonCell>
-                                <connections>
-                                    <action selector="quit:" target="Imx-Xf-AeJ" id="NLC-yt-55E"/>
-                                </connections>
-                            </button>
-                            <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DGi-dY-u11">
-                                <rect key="frame" x="143" y="263" width="75" height="77"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="NSApplicationIcon" id="Uxi-oT-Gtp"/>
-                            </imageView>
-                            <popUpButton verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SBZ-RT-wbJ">
-                                <rect key="frame" x="94" y="207" width="173" height="25"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                <popUpButtonCell key="cell" type="push" title="System Microphone" bezelStyle="rounded" alignment="left" lineBreakMode="truncatingTail" state="on" borderStyle="borderAndBezel" imageScaling="proportionallyDown" inset="2" selectedItem="LQS-Qx-Pct" id="K5v-KE-uDi">
-                                    <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
-                                    <font key="font" metaFont="menu"/>
-                                    <menu key="menu" id="8Oo-Cq-Jlv">
-                                        <items>
-                                            <menuItem title="System Microphone" state="on" id="LQS-Qx-Pct"/>
-                                            <menuItem title="Other" id="XUr-5u-RMQ"/>
-                                        </items>
-                                    </menu>
-                                </popUpButtonCell>
-                            </popUpButton>
-                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Cxl-SM-vnk">
-                                <rect key="frame" x="117" y="239" width="126" height="16"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                <textFieldCell key="cell" lineBreakMode="clipping" title="Audio Input Device: " id="rjX-Di-Zym">
-                                    <font key="font" metaFont="system"/>
-                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
-                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
-                                </textFieldCell>
-                            </textField>
-                            <levelIndicator verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="MTH-d9-trl">
-                                <rect key="frame" x="132" y="159" width="96" height="18"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                <levelIndicatorCell key="cell" alignment="left" doubleValue="1" maxValue="10" warningValue="2" criticalValue="2" id="Ncc-iP-PmD"/>
-                            </levelIndicator>
-                        </subviews>
-                    </view>
-                    <connections>
-                        <outlet property="soundMeter" destination="Ncc-iP-PmD" id="Laq-mC-eBI"/>
-                    </connections>
-                </viewController>
-                <customObject id="ggL-NP-v8x" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="95" y="237"/>
-        </scene>
     </scenes>
-    <resources>
-        <image name="NSApplicationIcon" width="32" height="32"/>
-    </resources>
 </document>
