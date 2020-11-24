@@ -26,6 +26,10 @@
 	<string>Main</string>
 	<key>LSUIElement</key>
 	<true/>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>To Generate Visualization from Microphone Audio</string>
+	<key>NSSupportsSuddenTermination</key>
+	<true/>
 	<key>NSPrincipalClass</key>
 	<string>NSApplication</string>
 </dict>

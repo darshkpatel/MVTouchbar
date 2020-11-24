@@ -6,19 +6,20 @@
 //
 
 import Cocoa
-
+import AppKit
 class StatusBarViewController: NSViewController {
+
 
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do view setup here.
+        var audioCapture = AudioCapture()
     }
     
-    @IBAction func Quit(_ sender: Any) {
+    @IBAction func quit(_ sender: Any) {
         NSApplication.shared.terminate(sender)
     }
-    
 }
 
 

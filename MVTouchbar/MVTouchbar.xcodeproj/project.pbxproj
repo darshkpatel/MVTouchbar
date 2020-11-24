@@ -8,19 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		3EE875A3256CF81B008682F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EE875A2256CF81B008682F9 /* AppDelegate.swift */; };
-		3EE875A5256CF81B008682F9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EE875A4256CF81B008682F9 /* ContentView.swift */; };
 		3EE875A7256CF81D008682F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EE875A6256CF81D008682F9 /* Assets.xcassets */; };
 		3EE875AA256CF81D008682F9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EE875A9256CF81D008682F9 /* Preview Assets.xcassets */; };
 		3EE875AD256CF81D008682F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EE875AB256CF81D008682F9 /* Main.storyboard */; };
 		3EE875B8256CFE84008682F9 /* StatusBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EE875B7256CFE84008682F9 /* StatusBarController.swift */; };
 		3EE875BB256D007B008682F9 /* EventMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EE875BA256D007B008682F9 /* EventMonitor.swift */; };
 		3EF93C10256D1D7A00B30868 /* StatusBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EF93C0E256D1D7A00B30868 /* StatusBarViewController.swift */; };
+		3EF93C2B256D4BB500B30868 /* AudioCapture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EF93C2A256D4BB500B30868 /* AudioCapture.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3EE8759F256CF81B008682F9 /* MVTouchBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVTouchBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EE875A2256CF81B008682F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3EE875A4256CF81B008682F9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3EE875A6256CF81D008682F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3EE875A9256CF81D008682F9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3EE875AC256CF81D008682F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -29,6 +28,7 @@
 		3EE875B7256CFE84008682F9 /* StatusBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusBarController.swift; sourceTree = "<group>"; };
 		3EE875BA256D007B008682F9 /* EventMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventMonitor.swift; sourceTree = "<group>"; };
 		3EF93C0E256D1D7A00B30868 /* StatusBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusBarViewController.swift; sourceTree = "<group>"; };
+		3EF93C2A256D4BB500B30868 /* AudioCapture.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioCapture.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,10 +61,10 @@
 		3EE875A1256CF81B008682F9 /* MVTouchBar */ = {
 			isa = PBXGroup;
 			children = (
+				3EF93C2A256D4BB500B30868 /* AudioCapture.swift */,
 				3EE875A2256CF81B008682F9 /* AppDelegate.swift */,
 				3EE875BA256D007B008682F9 /* EventMonitor.swift */,
 				3EE875B7256CFE84008682F9 /* StatusBarController.swift */,
-				3EE875A4256CF81B008682F9 /* ContentView.swift */,
 				3EE875A6256CF81D008682F9 /* Assets.xcassets */,
 				3EE875AB256CF81D008682F9 /* Main.storyboard */,
 				3EE875AE256CF81D008682F9 /* Info.plist */,
@@ -153,10 +153,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3EE875A5256CF81B008682F9 /* ContentView.swift in Sources */,
 				3EF93C10256D1D7A00B30868 /* StatusBarViewController.swift in Sources */,
 				3EE875B8256CFE84008682F9 /* StatusBarController.swift in Sources */,
 				3EE875A3256CF81B008682F9 /* AppDelegate.swift in Sources */,
+				3EF93C2B256D4BB500B30868 /* AudioCapture.swift in Sources */,
 				3EE875BB256D007B008682F9 /* EventMonitor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
