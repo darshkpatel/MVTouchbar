@@ -9,13 +9,17 @@ import Cocoa
 
 class StatusBarViewController: NSViewController {
 
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do view setup here.
     }
     
+    @IBAction func Quit(_ sender: Any) {
+        NSApplication.shared.terminate(sender)
+    }
+    
 }
-
 
 
 extension StatusBarViewController {
