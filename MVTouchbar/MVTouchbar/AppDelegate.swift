@@ -14,15 +14,12 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     var statusBar: StatusBarController?
 
     func applicationDidFinishLaunching(_ aNotification: Notification) {
-        // Create the SwiftUI view that provides the contents
-        let contentView = ContentView()
 
         // Set the SwiftUI's ContentView to the Popover's ContentViewController
-        popover.contentViewController = MainViewController()
         popover.contentSize = NSSize(width: 360, height: 360)
-        popover.contentViewController?.view = NSHostingView(rootView: contentView)
+        popover.contentViewController = StatusBarViewController.freshController()
         
-        // Create the Status Bar Item with the Popover
+        // Create the Status Bar Item with the above Popover
         statusBar = StatusBarController.init(popover)
     }
 

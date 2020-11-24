@@ -56,13 +56,34 @@
             </objects>
             <point key="canvasLocation" x="75" y="0.0"/>
         </scene>
-        <!--Main View Controller-->
+        <!--Status Bar View Controller-->
         <scene sceneID="c0y-cj-3Tm">
             <objects>
-                <viewController id="Imx-Xf-AeJ" customClass="MainViewController" customModule="MVTouchBar" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="StatusBarViewController" id="Imx-Xf-AeJ" customClass="StatusBarViewController" customModule="MVTouchBar" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" id="omh-f7-HKF">
                         <rect key="frame" x="0.0" y="0.0" width="450" height="300"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <subviews>
+                            <stackView distribution="fill" orientation="vertical" alignment="leading" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" fixedFrame="YES" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hhI-oO-be1">
+                                <rect key="frame" x="170" y="234" width="33" height="16"/>
+                                <subviews>
+                                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="fM8-nf-M8a">
+                                        <rect key="frame" x="-2" y="0.0" width="37" height="16"/>
+                                        <textFieldCell key="cell" lineBreakMode="clipping" title="TEST" id="iN9-Kh-We0">
+                                            <font key="font" usesAppearanceFont="YES"/>
+                                            <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                            <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                        </textFieldCell>
+                                    </textField>
+                                </subviews>
+                                <visibilityPriorities>
+                                    <integer value="1000"/>
+                                </visibilityPriorities>
+                                <customSpacing>
+                                    <real value="3.4028234663852886e+38"/>
+                                </customSpacing>
+                            </stackView>
+                        </subviews>
                     </view>
                 </viewController>
                 <customObject id="ggL-NP-v8x" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>

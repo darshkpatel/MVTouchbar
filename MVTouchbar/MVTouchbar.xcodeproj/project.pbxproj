@@ -14,7 +14,7 @@
 		3EE875AD256CF81D008682F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EE875AB256CF81D008682F9 /* Main.storyboard */; };
 		3EE875B8256CFE84008682F9 /* StatusBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EE875B7256CFE84008682F9 /* StatusBarController.swift */; };
 		3EE875BB256D007B008682F9 /* EventMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EE875BA256D007B008682F9 /* EventMonitor.swift */; };
-		3EE875BE256D05DF008682F9 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EE875BD256D05DF008682F9 /* MainViewController.swift */; };
+		3EF93C10256D1D7A00B30868 /* StatusBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EF93C0E256D1D7A00B30868 /* StatusBarViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,7 +28,7 @@
 		3EE875AF256CF81D008682F9 /* MVTouchBar.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MVTouchBar.entitlements; sourceTree = "<group>"; };
 		3EE875B7256CFE84008682F9 /* StatusBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusBarController.swift; sourceTree = "<group>"; };
 		3EE875BA256D007B008682F9 /* EventMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventMonitor.swift; sourceTree = "<group>"; };
-		3EE875BD256D05DF008682F9 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		3EF93C0E256D1D7A00B30868 /* StatusBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusBarViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,10 +67,10 @@
 				3EE875A4256CF81B008682F9 /* ContentView.swift */,
 				3EE875A6256CF81D008682F9 /* Assets.xcassets */,
 				3EE875AB256CF81D008682F9 /* Main.storyboard */,
-				3EE875BD256D05DF008682F9 /* MainViewController.swift */,
 				3EE875AE256CF81D008682F9 /* Info.plist */,
 				3EE875AF256CF81D008682F9 /* MVTouchBar.entitlements */,
 				3EE875A8256CF81D008682F9 /* Preview Content */,
+				3EF93C0E256D1D7A00B30868 /* StatusBarViewController.swift */,
 			);
 			path = MVTouchBar;
 			sourceTree = "<group>";
@@ -154,10 +154,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				3EE875A5256CF81B008682F9 /* ContentView.swift in Sources */,
+				3EF93C10256D1D7A00B30868 /* StatusBarViewController.swift in Sources */,
 				3EE875B8256CFE84008682F9 /* StatusBarController.swift in Sources */,
 				3EE875A3256CF81B008682F9 /* AppDelegate.swift in Sources */,
 				3EE875BB256D007B008682F9 /* EventMonitor.swift in Sources */,
-				3EE875BE256D05DF008682F9 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
