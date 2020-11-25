@@ -20,9 +20,14 @@ struct StatusBarView: View {
     
     var inputs = ["System Microphone", "Other"]
     @State private var selectedInput = 0
+    
+    var colorInputs = ["Pink-Blue", "Red-Green", "Grey-White"]
+    @State private var colorSelectedInput = 0
+    
+    
 
     var body: some View {
-        VStack(spacing: 20) {
+        VStack(spacing: 10) {
             Image("logo")
                 .resizable()
                 .scaledToFit()
@@ -40,12 +45,25 @@ struct StatusBarView: View {
             .labelsHidden()
             .frame(width: 200.0)
             
+            Spacer()
             
             AudioMeterView(config: .init(
                 meter: .init()
                     )
             )
             .environmentObject(audioCapture)
+            
+            Spacer()
+            
+            Text("Pick Color Theme:")
+            Picker(selection: $colorSelectedInput, label: Text("Pick Color Theme")) {
+                       ForEach(0 ..< colorInputs.count) {
+                          Text(self.colorInputs[$0])
+                       }
+                    }
+            .pickerStyle(PopUpButtonPickerStyle())
+            .labelsHidden()
+            .frame(width: 200.0)
             
             Spacer()
             Button(action: {
