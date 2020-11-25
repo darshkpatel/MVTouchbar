@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E89CEB6256E167D00B05752 /* AudioMeterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E89CEB4256E167D00B05752 /* AudioMeterView.swift */; };
+		3E89CEBA256E244200B05752 /* SegmentedProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E89CEB9256E244200B05752 /* SegmentedProgressView.swift */; };
 		3EE875A3256CF81B008682F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EE875A2256CF81B008682F9 /* AppDelegate.swift */; };
 		3EE875A7256CF81D008682F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EE875A6256CF81D008682F9 /* Assets.xcassets */; };
 		3EE875AA256CF81D008682F9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EE875A9256CF81D008682F9 /* Preview Assets.xcassets */; };
@@ -18,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3E89CEB4256E167D00B05752 /* AudioMeterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AudioMeterView.swift; path = MVTouchBar/AudioMeterView.swift; sourceTree = SOURCE_ROOT; };
+		3E89CEB9256E244200B05752 /* SegmentedProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SegmentedProgressView.swift; path = MVTouchBar/SegmentedProgressView.swift; sourceTree = SOURCE_ROOT; };
 		3EE8759F256CF81B008682F9 /* MVTouchBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVTouchBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EE875A2256CF81B008682F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3EE875A6256CF81D008682F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -28,7 +32,7 @@
 		3EE875B7256CFE84008682F9 /* StatusBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusBarController.swift; sourceTree = "<group>"; };
 		3EE875BA256D007B008682F9 /* EventMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventMonitor.swift; sourceTree = "<group>"; };
 		3EF93C2A256D4BB500B30868 /* AudioCapture.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioCapture.swift; sourceTree = "<group>"; };
-		3EF93C32256D527C00B30868 /* StatusBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = StatusBarView.swift; path = Views/StatusBarView.swift; sourceTree = "<group>"; };
+		3EF93C32256D527C00B30868 /* StatusBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = StatusBarView.swift; path = MVTouchBar/StatusBarView.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,8 +73,10 @@
 				3EE875AB256CF81D008682F9 /* Main.storyboard */,
 				3EE875AE256CF81D008682F9 /* Info.plist */,
 				3EE875AF256CF81D008682F9 /* MVTouchBar.entitlements */,
-				3EE875A8256CF81D008682F9 /* Preview Content */,
 				3EF93C32256D527C00B30868 /* StatusBarView.swift */,
+				3E89CEB4256E167D00B05752 /* AudioMeterView.swift */,
+				3E89CEB9256E244200B05752 /* SegmentedProgressView.swift */,
+				3EE875A8256CF81D008682F9 /* Preview Content */,
 			);
 			path = MVTouchBar;
 			sourceTree = "<group>";
@@ -154,6 +160,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				3EF93C33256D527C00B30868 /* StatusBarView.swift in Sources */,
+				3E89CEB6256E167D00B05752 /* AudioMeterView.swift in Sources */,
+				3E89CEBA256E244200B05752 /* SegmentedProgressView.swift in Sources */,
 				3EE875B8256CFE84008682F9 /* StatusBarController.swift in Sources */,
 				3EE875A3256CF81B008682F9 /* AppDelegate.swift in Sources */,
 				3EF93C2B256D4BB500B30868 /* AudioCapture.swift in Sources */,
