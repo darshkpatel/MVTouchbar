@@ -3,12 +3,16 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		3E89CEB6256E167D00B05752 /* AudioMeterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E89CEB4256E167D00B05752 /* AudioMeterView.swift */; };
 		3E89CEBA256E244200B05752 /* SegmentedProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E89CEB9256E244200B05752 /* SegmentedProgressView.swift */; };
+		3E89CECE256E33F600B05752 /* StatusBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E89CECD256E33F600B05752 /* StatusBarView.swift */; };
+		3E89CEFC256E6BA000B05752 /* TouchBarHelper in Frameworks */ = {isa = PBXBuildFile; productRef = 3E89CEFB256E6BA000B05752 /* TouchBarHelper */; };
+		3E89CEFE256E6C5C00B05752 /* TouchBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E89CEFD256E6C5C00B05752 /* TouchBarController.swift */; };
+		3E89CF03256E767300B05752 /* visualizerItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E89CF02256E767300B05752 /* visualizerItem.swift */; };
 		3EE875A3256CF81B008682F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EE875A2256CF81B008682F9 /* AppDelegate.swift */; };
 		3EE875A7256CF81D008682F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EE875A6256CF81D008682F9 /* Assets.xcassets */; };
 		3EE875AA256CF81D008682F9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EE875A9256CF81D008682F9 /* Preview Assets.xcassets */; };
@@ -16,12 +20,27 @@
 		3EE875B8256CFE84008682F9 /* StatusBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EE875B7256CFE84008682F9 /* StatusBarController.swift */; };
 		3EE875BB256D007B008682F9 /* EventMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EE875BA256D007B008682F9 /* EventMonitor.swift */; };
 		3EF93C2B256D4BB500B30868 /* AudioCapture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EF93C2A256D4BB500B30868 /* AudioCapture.swift */; };
-		3EF93C33256D527C00B30868 /* StatusBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EF93C32256D527C00B30868 /* StatusBarView.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		3E89CEF1256E5F5D00B05752 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		3E89CEB4256E167D00B05752 /* AudioMeterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AudioMeterView.swift; path = MVTouchBar/AudioMeterView.swift; sourceTree = SOURCE_ROOT; };
-		3E89CEB9256E244200B05752 /* SegmentedProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SegmentedProgressView.swift; path = MVTouchBar/SegmentedProgressView.swift; sourceTree = SOURCE_ROOT; };
+		3E89CEB4256E167D00B05752 /* AudioMeterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioMeterView.swift; sourceTree = "<group>"; };
+		3E89CEB9256E244200B05752 /* SegmentedProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentedProgressView.swift; sourceTree = "<group>"; };
+		3E89CECD256E33F600B05752 /* StatusBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusBarView.swift; sourceTree = "<group>"; };
+		3E89CEFD256E6C5C00B05752 /* TouchBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchBarController.swift; sourceTree = "<group>"; };
+		3E89CF02256E767300B05752 /* visualizerItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = visualizerItem.swift; sourceTree = "<group>"; };
 		3EE8759F256CF81B008682F9 /* MVTouchBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVTouchBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EE875A2256CF81B008682F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3EE875A6256CF81D008682F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -32,7 +51,6 @@
 		3EE875B7256CFE84008682F9 /* StatusBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusBarController.swift; sourceTree = "<group>"; };
 		3EE875BA256D007B008682F9 /* EventMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventMonitor.swift; sourceTree = "<group>"; };
 		3EF93C2A256D4BB500B30868 /* AudioCapture.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioCapture.swift; sourceTree = "<group>"; };
-		3EF93C32256D527C00B30868 /* StatusBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = StatusBarView.swift; path = MVTouchBar/StatusBarView.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,17 +58,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E89CEFC256E6BA000B05752 /* TouchBarHelper in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3E89CED4256E5E0A00B05752 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		3EE87596256CF81B008682F9 = {
 			isa = PBXGroup;
 			children = (
 				3EE875A1256CF81B008682F9 /* MVTouchBar */,
 				3EE875A0256CF81B008682F9 /* Products */,
+				3E89CED4256E5E0A00B05752 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,13 +94,15 @@
 			children = (
 				3EF93C2A256D4BB500B30868 /* AudioCapture.swift */,
 				3EE875A2256CF81B008682F9 /* AppDelegate.swift */,
+				3E89CEFD256E6C5C00B05752 /* TouchBarController.swift */,
+				3E89CF02256E767300B05752 /* visualizerItem.swift */,
 				3EE875BA256D007B008682F9 /* EventMonitor.swift */,
 				3EE875B7256CFE84008682F9 /* StatusBarController.swift */,
+				3E89CECD256E33F600B05752 /* StatusBarView.swift */,
 				3EE875A6256CF81D008682F9 /* Assets.xcassets */,
 				3EE875AB256CF81D008682F9 /* Main.storyboard */,
 				3EE875AE256CF81D008682F9 /* Info.plist */,
 				3EE875AF256CF81D008682F9 /* MVTouchBar.entitlements */,
-				3EF93C32256D527C00B30868 /* StatusBarView.swift */,
 				3E89CEB4256E167D00B05752 /* AudioMeterView.swift */,
 				3E89CEB9256E244200B05752 /* SegmentedProgressView.swift */,
 				3EE875A8256CF81D008682F9 /* Preview Content */,
@@ -99,12 +128,16 @@
 				3EE8759B256CF81B008682F9 /* Sources */,
 				3EE8759C256CF81B008682F9 /* Frameworks */,
 				3EE8759D256CF81B008682F9 /* Resources */,
+				3E89CEF1256E5F5D00B05752 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = MVTouchBar;
+			packageProductDependencies = (
+				3E89CEFB256E6BA000B05752 /* TouchBarHelper */,
+			);
 			productName = MVTouchBar;
 			productReference = 3EE8759F256CF81B008682F9 /* MVTouchBar.app */;
 			productType = "com.apple.product-type.application";
@@ -132,6 +165,9 @@
 				Base,
 			);
 			mainGroup = 3EE87596256CF81B008682F9;
+			packageReferences = (
+				3E89CEFA256E6BA000B05752 /* XCRemoteSwiftPackageReference "TouchBarHelper" */,
+			);
 			productRefGroup = 3EE875A0256CF81B008682F9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -159,13 +195,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3EF93C33256D527C00B30868 /* StatusBarView.swift in Sources */,
+				3E89CF03256E767300B05752 /* visualizerItem.swift in Sources */,
 				3E89CEB6256E167D00B05752 /* AudioMeterView.swift in Sources */,
 				3E89CEBA256E244200B05752 /* SegmentedProgressView.swift in Sources */,
 				3EE875B8256CFE84008682F9 /* StatusBarController.swift in Sources */,
+				3E89CECE256E33F600B05752 /* StatusBarView.swift in Sources */,
 				3EE875A3256CF81B008682F9 /* AppDelegate.swift in Sources */,
 				3EF93C2B256D4BB500B30868 /* AudioCapture.swift in Sources */,
 				3EE875BB256D007B008682F9 /* EventMonitor.swift in Sources */,
+				3E89CEFE256E6C5C00B05752 /* TouchBarController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,6 +346,10 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"MVTouchBar/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = MVTouchBar/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -317,6 +359,10 @@
 				PRODUCT_BUNDLE_IDENTIFIER = touchbarapps.MVTouchBar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
+				SYSTEM_FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks",
+				);
 			};
 			name = Debug;
 		};
@@ -330,6 +376,10 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"MVTouchBar/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = MVTouchBar/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -339,6 +389,10 @@
 				PRODUCT_BUNDLE_IDENTIFIER = touchbarapps.MVTouchBar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
+				SYSTEM_FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks",
+				);
 			};
 			name = Release;
 		};
@@ -364,6 +418,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3E89CEFA256E6BA000B05752 /* XCRemoteSwiftPackageReference "TouchBarHelper" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/darshkpatel/TouchBarHelper";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3E89CEFB256E6BA000B05752 /* TouchBarHelper */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3E89CEFA256E6BA000B05752 /* XCRemoteSwiftPackageReference "TouchBarHelper" */;
+			productName = TouchBarHelper;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 3EE87597256CF81B008682F9 /* Project object */;
 }

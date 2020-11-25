@@ -59,6 +59,13 @@ struct StatusBarView: View {
         }
         .padding(10)
         .frame(width: 360.0, height: 360.0, alignment: .top)
+        .touchBar(TouchBar(id: "touchbarapps.MVTouchBar") {
+            Button("♣️", action: {})
+            Button("♥️", action: {})
+            Button("♠️", action: {})
+            Button("♦️", action: {})
+        })
+
     }
 }
 
