@@ -16,7 +16,6 @@
 		3EFCF1EB256E9C7D001E2220 /* volume.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EFCF1EA256E9C7D001E2220 /* volume.swift */; };
 		3EFCF1EF256EA25A001E2220 /* barsScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EFCF1EE256EA25A001E2220 /* barsScene.swift */; };
 		3EFCF1FE256EC6A4001E2220 /* DFRFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EFCF1FD256EC6A4001E2220 /* DFRFoundation.framework */; };
-		3EFCF21F256ECFAD001E2220 /* WindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EFCF21E256ECFAD001E2220 /* WindowController.swift */; };
 		3EFCF222256ECFB9001E2220 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EFCF221256ECFB9001E2220 /* ViewController.swift */; };
 		3EFCF225256ED071001E2220 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EFCF224256ED071001E2220 /* Main.storyboard */; };
 		3EFCF232256F9FC3001E2220 /* spritekitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EFCF231256F9FC3001E2220 /* spritekitView.swift */; };
@@ -38,7 +37,6 @@
 		3EFCF1FD256EC6A4001E2220 /* DFRFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DFRFoundation.framework; path = ../../../../../System/Library/PrivateFrameworks/DFRFoundation.framework; sourceTree = "<group>"; };
 		3EFCF21B256ECF1A001E2220 /* TouchBarPrivateApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TouchBarPrivateApi.h; sourceTree = "<group>"; };
 		3EFCF21C256ECF1A001E2220 /* MVTouchBar-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MVTouchBar-Bridging-Header.h"; sourceTree = "<group>"; };
-		3EFCF21E256ECFAD001E2220 /* WindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WindowController.swift; sourceTree = "<group>"; };
 		3EFCF221256ECFB9001E2220 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3EFCF224256ED071001E2220 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		3EFCF231256F9FC3001E2220 /* spritekitView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = spritekitView.swift; sourceTree = "<group>"; };
@@ -90,7 +88,6 @@
 				3EFCF1EE256EA25A001E2220 /* barsScene.swift */,
 				3EFCF221256ECFB9001E2220 /* ViewController.swift */,
 				3EFCF231256F9FC3001E2220 /* spritekitView.swift */,
-				3EFCF21E256ECFAD001E2220 /* WindowController.swift */,
 				3EE875A2256CF81B008682F9 /* AppDelegate.swift */,
 				3EE875BA256D007B008682F9 /* EventMonitor.swift */,
 				3EE875B7256CFE84008682F9 /* StatusBarController.swift */,
@@ -202,7 +199,6 @@
 				3E89CECE256E33F600B05752 /* StatusBarView.swift in Sources */,
 				3EFCF1EB256E9C7D001E2220 /* volume.swift in Sources */,
 				3EFCF1EF256EA25A001E2220 /* barsScene.swift in Sources */,
-				3EFCF21F256ECFAD001E2220 /* WindowController.swift in Sources */,
 				3EE875A3256CF81B008682F9 /* AppDelegate.swift in Sources */,
 				3EFCF232256F9FC3001E2220 /* spritekitView.swift in Sources */,
 				3EE875BB256D007B008682F9 /* EventMonitor.swift in Sources */,

@@ -30,6 +30,8 @@ class ViewController: NSViewController {
     
     override func viewDidAppear() {
         backGroundShow()
+        self.view.window?.windowController?.close()
+
     }
     
     func updatePresence() {
