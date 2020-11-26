@@ -10,19 +10,8 @@
 
 In Progress
 - Visualize system audio directly without microphone
-- Aggregate Audio Device Setup
-- Visualization Customization
-- Support for Gradients
-### Usage
-Download the latest application from the releases page. If Gatekeeper throws an error, right-click and then open the app.
-
-Press Allow to the Microphone Permission Prompt (Plans to make it optional after system audio source is supported)
-
-Currently the application starts up as an extra Button in the touchbar, press the button to view the visualizer ( This visualizer is persistent across applications and won't close automatically when you switch applications, thanks to [touch-baer](https://github.com/a2/touch-baer)) 
-
-**Note:** Might be incompatible with tools like Pock or Better Touch Tool, since they use similar methods to override the touchbar switching
+- Visualization Customization (Change Colors, Gradient Support)
 ### Screenshots
-
 #### Touchbar
 ![](./assets/screenshots/s4.png)
 ![](./assets/screenshots/s5.png)
@@ -33,7 +22,17 @@ Currently the application starts up as an extra Button in the touchbar, press th
 #### Menu Bar
 ![](./assets/screenshots/s2.png)
 
-### Miscellaneous
+
+### Usage
+Download the latest application from the releases page. If Gatekeeper throws an error, right-click and then open the app.
+
+Press Allow to the Microphone Permission Prompt (Plans to make it optional after system audio source is supported)
+
+Currently the application starts up as an extra Button in the touchbar, press the button to view the visualizer ( This visualizer is persistent across applications and won't close automatically when you switch applications, thanks to [touch-baer](https://github.com/a2/touch-baer)) 
+
+**Note:** Might be incompatible with tools like Pock or Better Touch Tool, since they use similar methods to override the touchbar switching
+
+### Miscellaneous Screenshots
 ![](./assets/screenshots/s1.png)
 ![](./assets/screenshots/s3.png)
 
