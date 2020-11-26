@@ -1,0 +1,24 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "ArpitKotecha",
+      "name": "Arpit Jain",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/32438047?v=4",
+      "profile": "https://www.arpitjain.tech/",
+      "contributions": [
+        "code"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "MVTouchbar",
+  "projectOwner": "TouchbarApps",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
