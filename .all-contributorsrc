@@ -13,6 +13,17 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "darshkpatel",
+      "name": "Darsh Patel",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/11258286?v=4",
+      "profile": "https://github.com/darshkpatel",
+      "contributions": [
+        "doc",
+        "code",
+        "infra"
+      ]
     }
   ],
   "contributorsPerLine": 7,
@@ -20,5 +31,6 @@
   "projectOwner": "TouchbarApps",
   "repoType": "github",
   "repoHost": "https://github.com",
-  "skipCi": true
+  "skipCi": true,
+  "commitConvention": "none"
 }
