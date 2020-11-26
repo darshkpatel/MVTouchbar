@@ -54,4 +54,7 @@ class StatusBarController {
             hidePopover(event!)
         }
     }
+    
+    
+  
 }

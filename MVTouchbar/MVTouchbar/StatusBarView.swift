@@ -8,15 +8,7 @@
 import SwiftUI
 
 struct StatusBarView: View {
-    @ObservedObject private var audioCapture = AudioCapture()
-    
-    @State var gaugeThickness: CGFloat = 13
-    @State var gaugeGapWidth: CGFloat = 6
-    @State var titleLabelKerning: CGFloat = 4
-    @State var trimAnimationDuration: Double = 0.2
-    @State var radarLineWidth: CGFloat = 2
-    @State var radarDivisions: Int = 8
-
+   
     
     var inputs = ["System Microphone", "Other"]
     @State private var selectedInput = 0
@@ -32,7 +24,6 @@ struct StatusBarView: View {
                 .resizable()
                 .scaledToFit()
                 .frame(width: 100.0, height: 100.0)
-//            Spacer()
          
                 
             Text("Audio Input:")
@@ -44,14 +35,6 @@ struct StatusBarView: View {
             .pickerStyle(PopUpButtonPickerStyle())
             .labelsHidden()
             .frame(width: 200.0)
-            
-            Spacer()
-            
-            AudioMeterView(config: .init(
-                meter: .init()
-                    )
-            )
-            .environmentObject(audioCapture)
             
             Spacer()
             
@@ -77,12 +60,6 @@ struct StatusBarView: View {
         }
         .padding(10)
         .frame(width: 360.0, height: 360.0, alignment: .top)
-        .touchBar(TouchBar(id: "touchbarapps.MVTouchBar") {
-            Button("♣️", action: {})
-            Button("♥️", action: {})
-            Button("♠️", action: {})
-            Button("♦️", action: {})
-        })
 
     }
 }
@@ -93,3 +70,4 @@ struct StatusBarView_Previews: PreviewProvider {
         StatusBarView()
     }
 }
+

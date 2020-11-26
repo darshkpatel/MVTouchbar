@@ -3,54 +3,46 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3E89CEB6256E167D00B05752 /* AudioMeterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E89CEB4256E167D00B05752 /* AudioMeterView.swift */; };
-		3E89CEBA256E244200B05752 /* SegmentedProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E89CEB9256E244200B05752 /* SegmentedProgressView.swift */; };
 		3E89CECE256E33F600B05752 /* StatusBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E89CECD256E33F600B05752 /* StatusBarView.swift */; };
-		3E89CEFC256E6BA000B05752 /* TouchBarHelper in Frameworks */ = {isa = PBXBuildFile; productRef = 3E89CEFB256E6BA000B05752 /* TouchBarHelper */; };
-		3E89CEFE256E6C5C00B05752 /* TouchBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E89CEFD256E6C5C00B05752 /* TouchBarController.swift */; };
-		3E89CF03256E767300B05752 /* visualizerItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E89CF02256E767300B05752 /* visualizerItem.swift */; };
 		3EE875A3256CF81B008682F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EE875A2256CF81B008682F9 /* AppDelegate.swift */; };
 		3EE875A7256CF81D008682F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EE875A6256CF81D008682F9 /* Assets.xcassets */; };
 		3EE875AA256CF81D008682F9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EE875A9256CF81D008682F9 /* Preview Assets.xcassets */; };
-		3EE875AD256CF81D008682F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EE875AB256CF81D008682F9 /* Main.storyboard */; };
 		3EE875B8256CFE84008682F9 /* StatusBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EE875B7256CFE84008682F9 /* StatusBarController.swift */; };
 		3EE875BB256D007B008682F9 /* EventMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EE875BA256D007B008682F9 /* EventMonitor.swift */; };
-		3EF93C2B256D4BB500B30868 /* AudioCapture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EF93C2A256D4BB500B30868 /* AudioCapture.swift */; };
+		3EFCF1EB256E9C7D001E2220 /* volume.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EFCF1EA256E9C7D001E2220 /* volume.swift */; };
+		3EFCF1EF256EA25A001E2220 /* barsScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EFCF1EE256EA25A001E2220 /* barsScene.swift */; };
+		3EFCF1FE256EC6A4001E2220 /* DFRFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EFCF1FD256EC6A4001E2220 /* DFRFoundation.framework */; };
+		3EFCF21F256ECFAD001E2220 /* WindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EFCF21E256ECFAD001E2220 /* WindowController.swift */; };
+		3EFCF222256ECFB9001E2220 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EFCF221256ECFB9001E2220 /* ViewController.swift */; };
+		3EFCF225256ED071001E2220 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EFCF224256ED071001E2220 /* Main.storyboard */; };
+		3EFCF232256F9FC3001E2220 /* spritekitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EFCF231256F9FC3001E2220 /* spritekitView.swift */; };
+		3EFCF251256FB6C8001E2220 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 3EFCF250256FB6C8001E2220 /* Credits.rtf */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXCopyFilesBuildPhase section */
-		3E89CEF1256E5F5D00B05752 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
-		3E89CEB4256E167D00B05752 /* AudioMeterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioMeterView.swift; sourceTree = "<group>"; };
-		3E89CEB9256E244200B05752 /* SegmentedProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentedProgressView.swift; sourceTree = "<group>"; };
 		3E89CECD256E33F600B05752 /* StatusBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusBarView.swift; sourceTree = "<group>"; };
-		3E89CEFD256E6C5C00B05752 /* TouchBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchBarController.swift; sourceTree = "<group>"; };
-		3E89CF02256E767300B05752 /* visualizerItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = visualizerItem.swift; sourceTree = "<group>"; };
 		3EE8759F256CF81B008682F9 /* MVTouchBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVTouchBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EE875A2256CF81B008682F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3EE875A6256CF81D008682F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3EE875A9256CF81D008682F9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		3EE875AC256CF81D008682F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3EE875AE256CF81D008682F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3EE875AF256CF81D008682F9 /* MVTouchBar.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MVTouchBar.entitlements; sourceTree = "<group>"; };
 		3EE875B7256CFE84008682F9 /* StatusBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusBarController.swift; sourceTree = "<group>"; };
 		3EE875BA256D007B008682F9 /* EventMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventMonitor.swift; sourceTree = "<group>"; };
-		3EF93C2A256D4BB500B30868 /* AudioCapture.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioCapture.swift; sourceTree = "<group>"; };
+		3EFCF1EA256E9C7D001E2220 /* volume.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = volume.swift; sourceTree = "<group>"; };
+		3EFCF1EE256EA25A001E2220 /* barsScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = barsScene.swift; sourceTree = "<group>"; };
+		3EFCF1FD256EC6A4001E2220 /* DFRFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DFRFoundation.framework; path = ../../../../../System/Library/PrivateFrameworks/DFRFoundation.framework; sourceTree = "<group>"; };
+		3EFCF21B256ECF1A001E2220 /* TouchBarPrivateApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TouchBarPrivateApi.h; sourceTree = "<group>"; };
+		3EFCF21C256ECF1A001E2220 /* MVTouchBar-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MVTouchBar-Bridging-Header.h"; sourceTree = "<group>"; };
+		3EFCF21E256ECFAD001E2220 /* WindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WindowController.swift; sourceTree = "<group>"; };
+		3EFCF221256ECFB9001E2220 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3EFCF224256ED071001E2220 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		3EFCF231256F9FC3001E2220 /* spritekitView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = spritekitView.swift; sourceTree = "<group>"; };
+		3EFCF250256FB6C8001E2220 /* Credits.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = Credits.rtf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3E89CEFC256E6BA000B05752 /* TouchBarHelper in Frameworks */,
+				3EFCF1FE256EC6A4001E2220 /* DFRFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +60,7 @@
 		3E89CED4256E5E0A00B05752 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3EFCF1FD256EC6A4001E2220 /* DFRFoundation.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -92,19 +85,22 @@
 		3EE875A1256CF81B008682F9 /* MVTouchBar */ = {
 			isa = PBXGroup;
 			children = (
-				3EF93C2A256D4BB500B30868 /* AudioCapture.swift */,
+				3EFCF246256FB5FB001E2220 /* Resources */,
+				3EFCF1EA256E9C7D001E2220 /* volume.swift */,
+				3EFCF1EE256EA25A001E2220 /* barsScene.swift */,
+				3EFCF221256ECFB9001E2220 /* ViewController.swift */,
+				3EFCF231256F9FC3001E2220 /* spritekitView.swift */,
+				3EFCF21E256ECFAD001E2220 /* WindowController.swift */,
 				3EE875A2256CF81B008682F9 /* AppDelegate.swift */,
-				3E89CEFD256E6C5C00B05752 /* TouchBarController.swift */,
-				3E89CF02256E767300B05752 /* visualizerItem.swift */,
 				3EE875BA256D007B008682F9 /* EventMonitor.swift */,
 				3EE875B7256CFE84008682F9 /* StatusBarController.swift */,
 				3E89CECD256E33F600B05752 /* StatusBarView.swift */,
 				3EE875A6256CF81D008682F9 /* Assets.xcassets */,
-				3EE875AB256CF81D008682F9 /* Main.storyboard */,
+				3EFCF224256ED071001E2220 /* Main.storyboard */,
 				3EE875AE256CF81D008682F9 /* Info.plist */,
+				3EFCF21B256ECF1A001E2220 /* TouchBarPrivateApi.h */,
+				3EFCF21C256ECF1A001E2220 /* MVTouchBar-Bridging-Header.h */,
 				3EE875AF256CF81D008682F9 /* MVTouchBar.entitlements */,
-				3E89CEB4256E167D00B05752 /* AudioMeterView.swift */,
-				3E89CEB9256E244200B05752 /* SegmentedProgressView.swift */,
 				3EE875A8256CF81D008682F9 /* Preview Content */,
 			);
 			path = MVTouchBar;
@@ -118,6 +114,14 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		3EFCF246256FB5FB001E2220 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3EFCF250256FB6C8001E2220 /* Credits.rtf */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -128,7 +132,6 @@
 				3EE8759B256CF81B008682F9 /* Sources */,
 				3EE8759C256CF81B008682F9 /* Frameworks */,
 				3EE8759D256CF81B008682F9 /* Resources */,
-				3E89CEF1256E5F5D00B05752 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -136,7 +139,6 @@
 			);
 			name = MVTouchBar;
 			packageProductDependencies = (
-				3E89CEFB256E6BA000B05752 /* TouchBarHelper */,
 			);
 			productName = MVTouchBar;
 			productReference = 3EE8759F256CF81B008682F9 /* MVTouchBar.app */;
@@ -166,7 +168,6 @@
 			);
 			mainGroup = 3EE87596256CF81B008682F9;
 			packageReferences = (
-				3E89CEFA256E6BA000B05752 /* XCRemoteSwiftPackageReference "TouchBarHelper" */,
 			);
 			productRefGroup = 3EE875A0256CF81B008682F9 /* Products */;
 			projectDirPath = "";
@@ -182,9 +183,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3EE875AD256CF81D008682F9 /* Main.storyboard in Resources */,
 				3EE875AA256CF81D008682F9 /* Preview Assets.xcassets in Resources */,
 				3EE875A7256CF81D008682F9 /* Assets.xcassets in Resources */,
+				3EFCF225256ED071001E2220 /* Main.storyboard in Resources */,
+				3EFCF251256FB6C8001E2220 /* Credits.rtf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,30 +197,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3E89CF03256E767300B05752 /* visualizerItem.swift in Sources */,
-				3E89CEB6256E167D00B05752 /* AudioMeterView.swift in Sources */,
-				3E89CEBA256E244200B05752 /* SegmentedProgressView.swift in Sources */,
 				3EE875B8256CFE84008682F9 /* StatusBarController.swift in Sources */,
+				3EFCF222256ECFB9001E2220 /* ViewController.swift in Sources */,
 				3E89CECE256E33F600B05752 /* StatusBarView.swift in Sources */,
+				3EFCF1EB256E9C7D001E2220 /* volume.swift in Sources */,
+				3EFCF1EF256EA25A001E2220 /* barsScene.swift in Sources */,
+				3EFCF21F256ECFAD001E2220 /* WindowController.swift in Sources */,
 				3EE875A3256CF81B008682F9 /* AppDelegate.swift in Sources */,
-				3EF93C2B256D4BB500B30868 /* AudioCapture.swift in Sources */,
+				3EFCF232256F9FC3001E2220 /* spritekitView.swift in Sources */,
 				3EE875BB256D007B008682F9 /* EventMonitor.swift in Sources */,
-				3E89CEFE256E6C5C00B05752 /* TouchBarController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		3EE875AB256CF81D008682F9 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3EE875AC256CF81D008682F9 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		3EE875B0256CF81D008682F9 /* Debug */ = {
@@ -278,6 +269,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -332,6 +324,7 @@
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
 				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 			};
 			name = Release;
@@ -358,6 +351,8 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				PRODUCT_BUNDLE_IDENTIFIER = touchbarapps.MVTouchBar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MVTouchBar/MVTouchBar-Bridging-Header.h";
+				SWIFT_PRECOMPILE_BRIDGING_HEADER = YES;
 				SWIFT_VERSION = 5.0;
 				SYSTEM_FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -388,6 +383,8 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				PRODUCT_BUNDLE_IDENTIFIER = touchbarapps.MVTouchBar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MVTouchBar/MVTouchBar-Bridging-Header.h";
+				SWIFT_PRECOMPILE_BRIDGING_HEADER = YES;
 				SWIFT_VERSION = 5.0;
 				SYSTEM_FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -418,25 +415,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		3E89CEFA256E6BA000B05752 /* XCRemoteSwiftPackageReference "TouchBarHelper" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/darshkpatel/TouchBarHelper";
-			requirement = {
-				branch = master;
-				kind = branch;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		3E89CEFB256E6BA000B05752 /* TouchBarHelper */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 3E89CEFA256E6BA000B05752 /* XCRemoteSwiftPackageReference "TouchBarHelper" */;
-			productName = TouchBarHelper;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 3EE87597256CF81B008682F9 /* Project object */;
 }
