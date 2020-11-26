@@ -4,8 +4,9 @@
 
 **Note:** Currently a PoC Application, Major changes need to be done to this application. ( This is also my first Swift Project so it's in no way testament to best programming practices )
 
--  Music Visualizer (Duh!)
--  Visualize audio from system microphone
+- Music Visualizer (Duh!)
+- Visualize audio from system microphone
+- Low Resource Consumption (9% utilization of a single core, ~60MB Ram )
 
 In Progress
 - Visualize system audio directly without microphone
@@ -32,6 +33,9 @@ Currently the application starts up as an extra Button in the touchbar, press th
 #### Menu Bar
 ![](./assets/screenshots/s2.png)
 
+### Miscellaneous
+![](./assets/screenshots/s1.png)
+![](./assets/screenshots/s3.png)
 
 
 ### License
