@@ -24,7 +24,7 @@ In Progress
 
 
 ### Usage
-Download the latest application from the releases page. If Gatekeeper throws an error, right-click and then open the app.
+Download the latest application from the [releases page](https://github.com/TouchbarApps/MVTouchbar/releases). If Gatekeeper throws an error, right-click and then open the app.
 
 Press Allow to the Microphone Permission Prompt (Plans to make it optional after system audio source is supported)
 
