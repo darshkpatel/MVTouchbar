@@ -2,7 +2,7 @@
 
 ### Features
 
-**Note:** Currently a PoC Application, Major changes need to be done to this application. ( This is also my first Swift Project so it's in no way testament to best programming practices )
+#### Note: Currently a PoC Application, A lot of features aren't implemented and there's a ton of bugs. Major changes need to be done to this application. ( This is also my first Swift Project so it's in no way testament to best programming practices )
 
 - Music Visualizer (Duh!)
 - Visualize audio from system microphone
