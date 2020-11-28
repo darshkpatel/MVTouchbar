@@ -1,5 +1,4 @@
 ![MVTouchbar](https://socialify.git.ci/TouchbarApps/MVTouchbar/image?description=1&descriptionEditable=An%20OpenSource%20Audio%20Visualisation%20tool%20for%20the%20Mac%27s%20TouchBar&font=Source%20Code%20Pro&forks=1&issues=1&logo=https%3A%2F%2Fgithub.com%2FTouchbarApps%2FMVTouchbar%2Fblob%2Fmain%2Fassets%2Flogo.png%3Fraw%3Dtrue&owner=1&pattern=Floating%20Cogs&pulls=1&stargazers=1&theme=Light)
-[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FTouchbarApps%2FMVTouchbar.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2FTouchbarApps%2FMVTouchbar?ref=badge_shield)
 
 ### Features
 
@@ -42,9 +41,6 @@ Currently the application starts up as an extra Button in the touchbar, press th
 MVTouchBar is available under the GNU General Public License v3.0. See the [LICENSE file](LICENSE).
 
 Note: This is derived from [Touch-Bar-Visualizer](https://github.com/supersimple33/Touch-Bar-Visualizer/) with additional features and changes.
-
-[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FTouchbarApps%2FMVTouchbar.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2FTouchbarApps%2FMVTouchbar?ref=badge_large)
-
 ## Contributors ✨
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
