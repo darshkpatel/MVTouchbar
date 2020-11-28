@@ -6,7 +6,7 @@ class barsScene: SKScene {
     var ready = false
     let height : CGFloat = 30.0
     let wid : CGFloat = 10.0
-    
+    var setupDone = false
     var allNodes : [[SKSpriteNode]] = []
     
 
@@ -14,6 +14,7 @@ class barsScene: SKScene {
     
     override func didMove(to view: SKView) { // Initialize all sprites for leveling
         print(self.size.width)
+        if(!setupDone){
         self.backgroundColor = .black
         for i in 0...99 {
             var popul : [SKSpriteNode] = []
@@ -47,6 +48,8 @@ class barsScene: SKScene {
         if !created {
             created = true
             moveCent() //Correct call point?
+        }
+            setupDone = true
         }
     }
     

@@ -65,6 +65,7 @@ class ViewController: NSViewController {
         
         audioEngine.inputNode.installTap(onBus: 0, bufferSize: 1024, format: format) { (buffer, time) in
             let levels = self.vol.analyze(buffer: buffer)
+            print(levels)
             for i in 0...99 {
                 self.colorSKView.skBarsScene.levelFor(group: 99 - i, level: levels.0[i])
             }
@@ -107,8 +108,9 @@ extension ViewController: NSTouchBarDelegate {
     func touchBar(_ touchBar: NSTouchBar, makeItemForIdentifier identifier: NSTouchBarItem.Identifier) -> NSTouchBarItem? {
         
         let item = NSCustomTouchBarItem(identifier: .mainTouchBarItem)
-        colorSKView = spritekitView()
-        item.view = colorSKView
+        item.view = self.colorSKView
+
+
 
         return item
     }
