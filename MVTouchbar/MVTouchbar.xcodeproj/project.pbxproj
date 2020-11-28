@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E28E64F25720EB800F5B64B /* StatusBarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E28E64E25720EB800F5B64B /* StatusBarViewModel.swift */; };
 		3E89CECE256E33F600B05752 /* StatusBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E89CECD256E33F600B05752 /* StatusBarView.swift */; };
 		3EE875A3256CF81B008682F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EE875A2256CF81B008682F9 /* AppDelegate.swift */; };
 		3EE875A7256CF81D008682F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EE875A6256CF81D008682F9 /* Assets.xcassets */; };
@@ -23,6 +24,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3E28E64E25720EB800F5B64B /* StatusBarViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusBarViewModel.swift; sourceTree = "<group>"; };
 		3E89CECD256E33F600B05752 /* StatusBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusBarView.swift; sourceTree = "<group>"; };
 		3EE8759F256CF81B008682F9 /* MVTouchBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVTouchBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EE875A2256CF81B008682F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -92,6 +94,7 @@
 				3EE875BA256D007B008682F9 /* EventMonitor.swift */,
 				3EE875B7256CFE84008682F9 /* StatusBarController.swift */,
 				3E89CECD256E33F600B05752 /* StatusBarView.swift */,
+				3E28E64E25720EB800F5B64B /* StatusBarViewModel.swift */,
 				3EE875A6256CF81D008682F9 /* Assets.xcassets */,
 				3EFCF224256ED071001E2220 /* Main.storyboard */,
 				3EE875AE256CF81D008682F9 /* Info.plist */,
@@ -201,6 +204,7 @@
 				3EFCF1EF256EA25A001E2220 /* barsScene.swift in Sources */,
 				3EE875A3256CF81B008682F9 /* AppDelegate.swift in Sources */,
 				3EFCF232256F9FC3001E2220 /* spritekitView.swift in Sources */,
+				3E28E64F25720EB800F5B64B /* StatusBarViewModel.swift in Sources */,
 				3EE875BB256D007B008682F9 /* EventMonitor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -331,9 +335,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = MVTouchBar/MVTouchBar.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"MVTouchBar/Preview Content\"";
+				DEVELOPMENT_TEAM = 3SVMJGTZSF;
 				ENABLE_PREVIEWS = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -363,9 +369,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = MVTouchBar/MVTouchBar.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"MVTouchBar/Preview Content\"";
+				DEVELOPMENT_TEAM = 3SVMJGTZSF;
 				ENABLE_PREVIEWS = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",

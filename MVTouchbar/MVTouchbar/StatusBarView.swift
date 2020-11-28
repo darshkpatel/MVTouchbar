@@ -9,14 +9,9 @@ import SwiftUI
 
 struct StatusBarView: View {
    
-    
-    var inputs = ["System Microphone", "Other"]
-    @State private var selectedInput = 0
-    
-    var colorInputs = ["Pink-Blue", "Red-Green", "Grey-White"]
-    @State private var colorSelectedInput = 0
-    
-    
+    @ObservedObject private var statusbarViewModel = StatusBarViewModel()
+
+
 
     var body: some View {
         VStack(spacing: 10) {
@@ -27,9 +22,9 @@ struct StatusBarView: View {
          
                 
             Text("Audio Input:")
-            Picker(selection: $selectedInput, label: Text("Audio Input")) {
-                       ForEach(0 ..< inputs.count) {
-                          Text(self.inputs[$0])
+            Picker(selection: $statusbarViewModel.selectedInput, label: Text("Audio Input")) {
+                ForEach(0 ..< statusbarViewModel.inputs.count) {
+                          Text(statusbarViewModel.inputs[$0])
                        }
                     }
             .pickerStyle(PopUpButtonPickerStyle())
@@ -39,9 +34,9 @@ struct StatusBarView: View {
             Spacer()
             
             Text("Pick Color Theme:")
-            Picker(selection: $colorSelectedInput, label: Text("Pick Color Theme")) {
-                       ForEach(0 ..< colorInputs.count) {
-                          Text(self.colorInputs[$0])
+            Picker(selection: $statusbarViewModel.colorSelectedInput, label: Text("Pick Color Theme")) {
+                ForEach(0 ..< statusbarViewModel.colorInputs.count) {
+                    Text(statusbarViewModel.colorInputs[$0])
                        }
                     }
             .pickerStyle(PopUpButtonPickerStyle())
