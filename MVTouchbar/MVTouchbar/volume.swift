@@ -127,6 +127,9 @@ public class volume {
                 if peak < 0.0 {
                     peak = 0.0
                 }
+                if(peak.isNaN){
+                    peak = 0
+                }
                 finalPeaks.append(Int(peak))
             }
         default:
