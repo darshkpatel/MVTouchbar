@@ -83,10 +83,8 @@ public class volume {
         if peak > trailingPeak {
             trailingPeak = peak
         }
-        if(peak.isNaN) {peak = 0.0}
-        let peakPercent = Int(roundf((peak / trailingPeak) * 10.0))
-        
-        let method = 2 // TODO: Make configurable by user
+//        if(peak.isNaN) {peak = 0.0}
+        let method = 0 // TODO: Make configurable by user
         var finalPeaks : [Int] = []
         
         switch method { //switchs volume scale calculations
@@ -109,9 +107,8 @@ public class volume {
                 do {
                     let relLoud =  10.0 * Float(p) / 99.0
                     var peakiness = Int(relLoud) + 1
-                    guard peakiness >= 0 && peakiness <= 10 else {
+                    if (!(peakiness >= 0 && peakiness <= 10)) {
                         peakiness = 0
-                        print("error occured index out of bounds")
                     }
                     finalPeaks.append(peakiness)
                 }
@@ -128,7 +125,7 @@ public class volume {
                     peak = 0.0
                 }
                 if(peak.isNaN){
-                    peak = 0
+                    peak = 0.0
                 }
                 finalPeaks.append(Int(peak))
             }
@@ -143,8 +140,8 @@ public class volume {
         for ii in 0..<Int(buffer.audioBufferList.pointee.mNumberBuffers) {
             bzero(buffer.audioBufferList.pointee.mBuffers.mData! + ii, Int(buffer.audioBufferList.pointee.mBuffers.mDataByteSize))
         }
-        
-        return (finalPeaks, peakPercent)
+
+        return (finalPeaks, 0)
     }
     
     func logA(x: Float, ofBase b: Float) -> Float {
