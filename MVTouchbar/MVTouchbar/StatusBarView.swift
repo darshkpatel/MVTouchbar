@@ -9,8 +9,7 @@ import SwiftUI
 
 struct StatusBarView: View {
    
-    @ObservedObject private var statusbarViewModel = StatusBarViewModel()
-
+    @EnvironmentObject private var appState: AppState
 
 
     var body: some View {
@@ -22,9 +21,9 @@ struct StatusBarView: View {
          
                 
             Text("Audio Input:")
-            Picker(selection: $statusbarViewModel.selectedInput, label: Text("Audio Input")) {
-                ForEach(0 ..< statusbarViewModel.inputs.count) {
-                          Text(statusbarViewModel.inputs[$0])
+            Picker(selection: $appState.selectedInput, label: Text("Audio Input")) {
+                ForEach(0 ..< appState.inputs.count) {
+                          Text(appState.inputs[$0])
                        }
                     }
             .pickerStyle(PopUpButtonPickerStyle())
@@ -34,15 +33,15 @@ struct StatusBarView: View {
             Spacer()
             
             Text("Pick Color Theme:")
-            Picker(selection: $statusbarViewModel.colorSelectedInput, label: Text("Pick Color Theme")) {
-                ForEach(0 ..< statusbarViewModel.colorInputs.count) {
-                    Text(statusbarViewModel.colorInputs[$0])
+            Picker(selection: $appState.selectedColor, label: Text("Pick Color Theme")) {
+                ForEach(0 ..< appState.colorInputs.count) {
+                    Text(appState.colorInputs[$0])
                        }
                     }
             .pickerStyle(PopUpButtonPickerStyle())
             .labelsHidden()
             .frame(width: 200.0)
-            
+  
             Spacer()
             Button(action: {
                 NSApplication.shared.terminate(self)
