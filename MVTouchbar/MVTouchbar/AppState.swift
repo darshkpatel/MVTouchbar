@@ -12,10 +12,10 @@ import Combine
 class AppState: ObservableObject {
     static let shared = AppState()
         
-    var inputs = ["System Microphone", "Other"]
+    var inputs = ["System Microphone", "To be Implemented"]
     @Published var selectedInput = 0
     
-    var colorInputs = ["Teal", "Pink", "Green", "Yellow"]
+    var colorInputs = ["Teal", "To be Implemented"]
     var colors = [NSColor.systemTeal, NSColor.systemPink, NSColor.systemGreen, NSColor.systemYellow]
     
     @Published var selectedColor = 0
