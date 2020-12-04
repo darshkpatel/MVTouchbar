@@ -14,6 +14,7 @@ In Progress
 ### Screenshots
 #### Touchbar
 ![](./assets/screenshots/s4.png)
+![](./assets/screenshots/s9.png)
 ![](./assets/screenshots/s5.png)
 ![](./assets/screenshots/s6.png)
 ![](./assets/screenshots/s7.png)
