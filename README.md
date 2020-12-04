@@ -1,4 +1,4 @@
-![MVTouchbar](https://socialify.git.ci/TouchbarApps/MVTouchbar/image?description=1&descriptionEditable=An%20OpenSource%20Audio%20Visualisation%20tool%20for%20the%20Mac%27s%20TouchBar&font=Source%20Code%20Pro&forks=1&issues=1&logo=https%3A%2F%2Fgithub.com%2FTouchbarApps%2FMVTouchbar%2Fblob%2Fmain%2Fassets%2Flogo.png%3Fraw%3Dtrue&owner=1&pattern=Floating%20Cogs&pulls=1&stargazers=1&theme=Light)
+![MVTouchbar](https://socialify.git.ci/darshkpatel/MVTouchbar/image?description=1&descriptionEditable=An%20OpenSource%20Audio%20Visualisation%20tool%20for%20the%20Mac%27s%20TouchBar&font=Source%20Code%20Pro&forks=1&issues=1&logo=https%3A%2F%2Fgithub.com%2Fdarshkpatel%2FMVTouchbar%2Fblob%2Fmain%2Fassets%2Flogo.png%3Fraw%3Dtrue&owner=1&pattern=Floating%20Cogs&pulls=1&stargazers=1&theme=Light)
 
 ### Features
 
@@ -25,7 +25,7 @@ In Progress
 
 
 ### Usage
-Download the latest application from the [releases page](https://github.com/TouchbarApps/MVTouchbar/releases). If Gatekeeper throws an error, right-click and then open the app.
+Download the latest application from the [releases page](https://github.com/darshkpatel/MVTouchbar/releases). If Gatekeeper throws an error, right-click and then open the app.
 
 Press Allow to the Microphone Permission Prompt (Plans to make it optional after system audio source is supported)
 
@@ -54,8 +54,8 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- markdownlint-disable -->
 <table>
   <tr>
-    <td align="center"><a href="https://www.arpitjain.tech/"><img src="https://avatars1.githubusercontent.com/u/32438047?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Arpit Jain</b></sub></a><br /><a href="https://github.com/TouchbarApps/MVTouchbar/commits?author=ArpitKotecha" title="Code">💻</a></td>
-    <td align="center"><a href="https://github.com/darshkpatel"><img src="https://avatars0.githubusercontent.com/u/11258286?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Darsh Patel</b></sub></a><br /><a href="https://github.com/TouchbarApps/MVTouchbar/commits?author=darshkpatel" title="Documentation">📖</a> <a href="https://github.com/TouchbarApps/MVTouchbar/commits?author=darshkpatel" title="Code">💻</a> <a href="#infra-darshkpatel" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a></td>
+    <td align="center"><a href="https://www.arpitjain.tech/"><img src="https://avatars1.githubusercontent.com/u/32438047?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Arpit Jain</b></sub></a><br /><a href="https://github.com/darshkpatel/MVTouchbar/commits?author=ArpitKotecha" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/darshkpatel"><img src="https://avatars0.githubusercontent.com/u/11258286?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Darsh Patel</b></sub></a><br /><a href="https://github.com/darshkpatel/MVTouchbar/commits?author=darshkpatel" title="Documentation">📖</a> <a href="https://github.com/darshkpatel/MVTouchbar/commits?author=darshkpatel" title="Code">💻</a> <a href="#infra-darshkpatel" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a></td>
   </tr>
 </table>
 

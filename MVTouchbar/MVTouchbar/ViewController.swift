@@ -8,10 +8,10 @@ import CoreAudio
 
 
 extension NSTouchBarItem.Identifier {
-    static let mainTouchBarItem = NSTouchBarItem.Identifier("touchbarapps.MVTouchBar.visualizer.color")
+    static let mainTouchBarItem = NSTouchBarItem.Identifier("darshkpatel.MVTouchBar.visualizer.color")
 }
 extension NSTouchBar.CustomizationIdentifier {
-    static let mainTouchBarCustomization = NSTouchBar.CustomizationIdentifier("touchbarapps.MVTouchBar.visualizer")
+    static let mainTouchBarCustomization = NSTouchBar.CustomizationIdentifier("darshkpatel.MVTouchBar.visualizer")
 }
 
 
