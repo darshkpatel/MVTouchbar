@@ -20,6 +20,7 @@ class ViewController: NSViewController {
     let audioEngine = AVAudioEngine()
     var vol : volume = volume()
     
+    var appState = AppState()
     var colorSKView = spritekitView()
 
     
@@ -65,12 +66,9 @@ class ViewController: NSViewController {
         
         audioEngine.inputNode.installTap(onBus: 0, bufferSize: 1024, format: format) { (buffer, time) in
             let levels = self.vol.analyze(buffer: buffer)
-            print(levels)
             for i in 0...99 {
                 self.colorSKView.skBarsScene.levelFor(group: 99 - i, level: levels.0[i])
             }
-            print(levels.1)
-
     
 
         }
