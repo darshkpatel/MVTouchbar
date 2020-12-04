@@ -159,8 +159,9 @@ class barsScene: SKScene {
     
     func levelFor(group: Int, level: Int) {
         guard allNodes.count == 100 else { return }
-        
-        for i in 0...level { // Reveal all needed nodes
+        guard level > 0 else { return }
+
+        for i in 1...level { // Reveal all needed nodes
             if i > 10 {
                 continue
             }

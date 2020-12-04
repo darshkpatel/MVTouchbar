@@ -116,7 +116,7 @@ public class volume {
         case 2:
             let s = powf(peaks.max()!, 0.1)
             for i in 0...99 { // Number of frequencies in each loudness level varies logarithmically
-                if peaks[i] == 0.0 {
+                if peaks[i] <= 1 {
                     finalPeaks.append(1)
                     continue
                 }
@@ -124,17 +124,17 @@ public class volume {
                 if(peak.isNaN){
                     peak = 1.0
                 }
-                if peak < 0.0 {
-                    peak = 1.0
-                }
                 
                 if peak > 10.0 {
                     peak = peak/10
                 }
-           
+                if peak <= 0.5 {
+                    peak = 1.0
+                }
+
                 finalPeaks.append(Int(peak))
             }
-            print(finalPeaks)
+//            print(peaks.max() ?? -1)
         default:
             fatalError() //should never default
             break
