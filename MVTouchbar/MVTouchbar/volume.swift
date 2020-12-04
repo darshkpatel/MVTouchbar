@@ -84,7 +84,7 @@ public class volume {
             trailingPeak = peak
         }
 //        if(peak.isNaN) {peak = 0.0}
-        let method = 0 // TODO: Make configurable by user
+        let method = 2 // TODO: Make configurable by user
         var finalPeaks : [Int] = []
         
         switch method { //switchs volume scale calculations
@@ -117,18 +117,24 @@ public class volume {
             let s = powf(peaks.max()!, 0.1)
             for i in 0...99 { // Number of frequencies in each loudness level varies logarithmically
                 if peaks[i] == 0.0 {
-                    finalPeaks.append(0)
+                    finalPeaks.append(1)
                     continue
                 }
                 var peak = logA(x: peaks[i], ofBase: s)
-                if peak < 0.0 {
-                    peak = 0.0
-                }
                 if(peak.isNaN){
-                    peak = 0.0
+                    peak = 1.0
                 }
+                if peak < 0.0 {
+                    peak = 1.0
+                }
+                
+                if peak > 10.0 {
+                    peak = peak/10
+                }
+           
                 finalPeaks.append(Int(peak))
             }
+            print(finalPeaks)
         default:
             fatalError() //should never default
             break
